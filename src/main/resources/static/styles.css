@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+.input{
+    width: auto;
+    height: auto;
+    display: block;
+    background-color:floralwhite;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    padding-top: 25px;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+.output{
+    width: auto;
+    height: auto;
+    display: block;
+    background-color: floralwhite;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    padding-top: 25px;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: floralwhite;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: lightblue;
+
+}
