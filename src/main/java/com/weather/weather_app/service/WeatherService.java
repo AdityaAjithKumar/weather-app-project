@@ -18,4 +18,10 @@ public class WeatherService {
         System.out.println( restTemplate.getForObject(url, String.class));
         return restTemplate.getForObject(url, String.class);
     }
+
+    public String getCord(String lat,String lon){
+        String url = BASE_URL + "?key=" + API_KEY + "&q=" + lat+","+lon;
+        System.out.println( restTemplate.getForObject(url, String.class));
+        return restTemplate.getForObject(url, String.class);
+    }
 }

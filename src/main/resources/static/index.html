@@ -7,20 +7,22 @@
     <script src="script.js"></script>
 </head>
 <body>
-<h1>Weather App </h1>
-<div class="input">
-    <label for="name">Enter City Name</label>
-    <input id="name" type="text" onkeypress="printing" >
-    <button id="submit" onclick="printing()">Submit</button>
-</div>
+<div class="container">
+    <img src="Res/logo.jpg" alt="Logo" class="logo">
+    <h1>Weather App</h1>
+    <div class="input">
+        <label for="name">Enter City Name</label>
+        <input id="name" type="text">
+        <button id="submit" onclick="ByName()">Submit</button>
+        <button id="Location" onclick="getLocation()">Get Location</button>
+    </div>
 
-<div class="output">
-    <h2>Weather Details</h2>
-    <p id="city"></p>
-    <p id="temp"></p>
-    <img id="img" src="default.jpg" alt="Weather Icon">
-
-
+    <div class="output">
+        <h2>Weather Details</h2>
+        <p id="city"></p>
+        <p id="temp"></p>
+        <img id="img" src="default.jpg" alt="Weather Icon">
+    </div>
 </div>
 </body>
 </html>

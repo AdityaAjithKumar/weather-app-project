@@ -17,4 +17,8 @@ public class WeatherController {
     public String getWeather(@RequestParam String city) {
         return weatherService.getWeather(city);
     }
-}
+
+    @GetMapping("/cord")
+    public String getCord(@RequestParam("lat") String lat, @RequestParam("lon") String lon){
+        return weatherService.getCord(lat, lon);
+    }}
